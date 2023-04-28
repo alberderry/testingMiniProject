@@ -1,0 +1,4 @@
+# Created at 2023-04-27T02:33:39.199
+Boot Manifest-JAR contains absolute paths in classpath 'D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

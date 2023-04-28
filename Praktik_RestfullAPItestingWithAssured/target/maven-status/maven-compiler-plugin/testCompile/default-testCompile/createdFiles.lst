@@ -1,3 +1,5 @@
+starter\products\Get.class
 starter\CucumberTestSuite.class
-starter\user\Get.class
-starter\stepdefinitions\UserSteps.class
+starter\stepdefinitions\GetSteps.class
+starter\products\invalidGet.class
+starter\stepdefinitions\invalidGetSteps.class

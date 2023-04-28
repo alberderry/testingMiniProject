@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="23.099" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\target\test-classes;D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\target\test-automation-mobile-1.0-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\ACER\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\ACER\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\ACER\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ACER\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ACER\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\ACER\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\ACER\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\ACER\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ACER\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ACER\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ACER\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\ACER\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ACER\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\ACER\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\ACER\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\ACER\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\ACER\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\ACER\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\ACER\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ACER\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ACER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\ACER\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\ACER\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\ACER\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ACER\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ACER\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ACER\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ACER\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ACER\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ACER\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ACER\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ACER\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ACER\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ACER\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ACER\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\ACER\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ACER\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\ACER\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ACER\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ACER\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ACER\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ACER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ACER\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ACER\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ACER\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\ACER\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ACER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ACER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ACER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ACER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ACER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ACER\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\ACER\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\ACER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ACER\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ACER\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ACER\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ACER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ACER\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\ACER\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\ACER\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\ACER\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ACER\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-java\1.0.1\cucumber-java-1.0.1.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-core\1.0.1\cucumber-core-1.0.1.jar;C:\Users\ACER\.m2\repository\info\cukes\gherkin\2.9.3\gherkin-2.9.3.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-html\0.2.1\cucumber-html-0.2.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ACER\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ACER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ACER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ACER\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ACER\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ACER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_361\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire5344911790454194123\surefirebooter4175948747309915967.jar C:\Users\ACER\AppData\Local\Temp\surefire5344911790454194123 2023-04-27T02-33-38_614-jvmRun1 surefire4849230590883495319tmp surefire_06871590139772783846tmp"/>
+    <property name="surefire.test.class.path" value="D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\target\test-classes;D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\target\test-automation-mobile-1.0-SNAPSHOT.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\ACER\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\ACER\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\ACER\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ACER\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ACER\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\ACER\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\ACER\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\ACER\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ACER\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\ACER\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\ACER\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\ACER\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ACER\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\ACER\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\ACER\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\ACER\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\ACER\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\ACER\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\ACER\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\ACER\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\ACER\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\ACER\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\ACER\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\ACER\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ACER\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ACER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\ACER\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\ACER\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\ACER\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\ACER\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\ACER\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ACER\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ACER\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\ACER\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ACER\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\ACER\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\ACER\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\ACER\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\ACER\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\ACER\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\ACER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\ACER\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\ACER\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\ACER\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ACER\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\ACER\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\ACER\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ACER\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ACER\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\ACER\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ACER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ACER\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ACER\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\ACER\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\ACER\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\ACER\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\ACER\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\ACER\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\ACER\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\ACER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ACER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ACER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ACER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ACER\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ACER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ACER\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\ACER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\ACER\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ACER\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\ACER\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\ACER\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\ACER\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\ACER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ACER\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\ACER\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\ACER\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ACER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ACER\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ACER\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ACER\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ACER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ACER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ACER\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\ACER\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\ACER\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\ACER\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\ACER\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ACER\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-java\1.0.1\cucumber-java-1.0.1.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-core\1.0.1\cucumber-core-1.0.1.jar;C:\Users\ACER\.m2\repository\info\cukes\gherkin\2.9.3\gherkin-2.9.3.jar;C:\Users\ACER\.m2\repository\info\cukes\cucumber-html\0.2.1\cucumber-html-0.2.1.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ACER\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ACER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ACER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ACER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ACER\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ACER\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ACER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ACER\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ACER"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_361\jre"/>
+    <property name="basedir" value="D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire5344911790454194123\surefirebooter4175948747309915967.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_361\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_361\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_361\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_361\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_361\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_361\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_361\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_361-b09"/>
+    <property name="user.name" value="ACER"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_361\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ACER\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACER\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_361"/>
+    <property name="user.dir" value="D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_361\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ACER\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\mysql\bin;C:\Program Files (x86)\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\PHP;C:\ProgramData\ComposerSetup\bin;C:\Users\ACER\anaconda3\pkgs\openssl-1.1.1q-h2bbff1b_0\info\recipe;C:\Users\ACER\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_361\lib;C:\Program Files\Java\jdk1.8.0_361\bin;C:\opt\apache-maven-3.9.1\bin;C:\xampp\php;C:\Program Files\nodejs\node_modules;C:\Users\ACER\Downloads\Compressed\chromedriver_win32;C:\apache-jmeter-5.5\bin;C:\Users\ACER\AppData\Local\Android\Sdk;C:\Users\ACER\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\mysql\bin;C:\Program Files (x86)\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\PHP;C:\ProgramData\ComposerSetup\bin;C:\Users\ACER\anaconda3\pkgs\openssl-1.1.1q-h2bbff1b_0\info\recipe;C:\Users\ACER\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_361\lib;C:\Program Files\Java\jdk1.8.0_361\bin;C:\opt\apache-maven-3.9.1\bin;C:\xampp\php;C:\Program Files\nodejs\node_modules;C:\Users\ACER\Downloads\Compressed\chromedriver_win32;C:\apache-jmeter-5.5\bin;C:\Users\ACER\AppData\Local\Android\Sdk;C:\Users\ACER\AppData\Local\Android\Sdk\platform-tools;C:\Users\ACER\Downloads\Compressed\chromedriver_win32;C:\Users\ACER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.361-b09"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_361\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="New user click account" classname="As a new user, I have be able to create new account" time="9.83">
+    <system-out><![CDATA[02:33:40.202 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+02:33:40.375 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/FailRegister.feature
+02:33:40.476 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+02:33:40.486 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+02:33:40.488 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23821b2d
+02:33:40.489 [main] INFO  - Test Suite Started: New user can Create account and Fail Registered
+02:33:40.526 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/Login.feature
+02:33:40.528 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a077a8ae
+02:33:40.529 [main] INFO  - Test Suite Started: As a user i have be able to login so that i can see home screen
+02:33:40.529 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/FailRegister.feature
+02:33:40.531 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23821b2d
+02:33:40.531 [main] INFO  - Test Suite Started: New user can Create account and Fail Registered
+02:33:40.590 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/FailRegister.feature
+02:33:40.684 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a new user, I have be able to create new account(new-user-can-create-account-and-fail-registered;as-a-new-user--i-have-be-able-to-create-new-account)
+--------------------------------------------------------------------------------
+02:33:40.724 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\src\test\resources\features\FailRegister.feature
+02:33:40.734 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\src\test\resources\features\Login.feature
+02:33:40.737 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature D:\[KM] Quality Assurance - Alttera Academy\Git Derry\testingMiniProject\test-automation-mobile\src\test\resources\features\Register.feature
+02:33:41.151 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FailRegisterSteps.failAccount - failclickAccount
+02:33:41.337 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+02:33:41.341 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+02:33:41.341 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+02:33:41.347 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1eb2d371
+02:33:41.372 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+02:33:41.372 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+02:33:41.373 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+02:33:41.374 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+02:33:41.374 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+02:33:41.375 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+02:33:41.376 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ACER\AppData\Local\Temp (java.io.tmpdir)
+02:33:41.376 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02:33:41.376 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+02:33:41.377 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3767533568 bytes
+02:33:41.377 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02:33:41.379 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+02:33:41.379 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+02:33:41.395 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+02:33:41.427 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02:33:41.427 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02:33:41.949 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+02:33:41.949 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+02:33:41.975 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+02:33:41.995 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+02:33:42.005 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+02:33:42.005 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+02:33:42.067 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02:33:42.086 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+02:33:42.087 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+02:33:42.087 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02:33:42.333 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 30584 (auto-detected)
+02:33:42.335 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+02:33:42.335 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+02:33:42.469 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02:33:42.470 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02:33:42.477 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f4:7b:09:ff:fe:a4:16:e6 (auto-detected)
+02:33:42.514 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+02:33:42.515 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+02:33:42.515 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4ef5279a
+02:33:42.527 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to '/wd/hub/session'
+02:33:42.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+02:33:42.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+02:33:42.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+02:33:42.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+02:33:42.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+02:33:49.856 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+02:33:49.856 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session HTTP/1.1
+X-Idempotency-Key: df72285d-cb5b-4e94-8f8b-be996f0fe175
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 451
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 1131
+ETag: W/"46b-E6tOcidJ71kErGmjBbdgw6F0JFQ"
+Date: Wed, 26 Apr 2023 19:33:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:49.862 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:49.917 [Forwarding setTimeout on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/timeouts'
+02:33:49.917 [Forwarding setTimeout on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/timeouts'
+02:33:49.925 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/timeouts HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:49.925 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:49.932 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:49.932 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:50.517 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 330
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-zywmSsIjR8dRMbbPHl8YjMastRM"
+Date: Wed, 26 Apr 2023 19:33:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:50.518 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:50.522 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/displayed'
+02:33:50.522 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/displayed'
+02:33:50.537 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:50.537 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:50.538 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/enabled'
+02:33:50.538 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/enabled'
+02:33:50.549 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/enabled HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:50.550 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:50.551 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/click'
+02:33:50.551 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/click'
+02:33:50.573 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-000700000000/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:50.573 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:50.577 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: failclickAccount
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/ACER/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/ACER/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+  </testcase>
+  <testcase name="New user click register" classname="As a new user, I have be able to create new account" time="1.025">
+    <system-out><![CDATA[02:33:50.588 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FailRegisterSteps.failuserClickRegisterLink - failclickRegisterLink
+02:33:50.590 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:50.590 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:51.554 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 102
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-14kmrAB1JA46DzscciTzQxdRgB8"
+Date: Wed, 26 Apr 2023 19:33:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:51.554 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:51.555 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/displayed'
+02:33:51.555 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/displayed'
+02:33:51.566 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:51.566 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:51.567 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/enabled'
+02:33:51.567 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/enabled'
+02:33:51.580 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/enabled HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:51.580 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:51.581 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/click'
+02:33:51.582 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/click'
+02:33:51.609 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001000000000/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:51.609 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:51.610 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: failclickRegisterLink
+]]></system-out>
+  </testcase>
+  <testcase name="New user input name on name field" classname="As a new user, I have be able to create new account" time="0.918">
+    <system-out><![CDATA[02:33:51.615 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FailRegisterSteps.failinputNameField - failinputNameField
+02:33:51.760 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:51.760 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.503 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 309
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-HnydBU9RVYN3jE8F1pJRnXAQ4Ws"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.504 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.507 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001600000000/value'
+02:33:52.507 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001600000000/value'
+02:33:52.530 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001600000000/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 121
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.530 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.531 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: failinputNameField
+]]></system-out>
+  </testcase>
+  <testcase name="New user input email on email field" classname="As a new user, I have be able to create new account" time="0.096">
+    <system-out><![CDATA[02:33:52.557 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.558 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.604 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 309
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-wk8+EnG+vhlWuR+6LCUTk1jYdb4"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.605 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.607 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001700000000/value'
+02:33:52.607 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001700000000/value'
+02:33:52.627 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001700000000/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 131
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.627 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+]]></system-out>
+  </testcase>
+  <testcase name="New user input password on password field" classname="As a new user, I have be able to create new account" time="0.069">
+    <system-out><![CDATA[02:33:52.635 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FailRegisterSteps.failinputPasswordField - failinputPassword
+02:33:52.637 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.637 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.677 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 309
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-HNM2WwTRJuXxW2pq3AH7oAUIImE"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.677 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.680 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001800000000/value'
+02:33:52.680 [Forwarding sendKeysToElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001800000000/value'
+02:33:52.700 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001800000000/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 171
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.700 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.701 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: failinputPassword
+]]></system-out>
+  </testcase>
+  <testcase name="New user click register button" classname="As a new user, I have be able to create new account" time="0.095">
+    <system-out><![CDATA[02:33:52.705 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FailRegisterSteps.failclickRegisterButton - failclickRegisterButton
+02:33:52.707 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.707 [Forwarding findElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element'
+02:33:52.747 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 102
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-EeZfbd7SmMkPbBTtkQ+yTO73egM"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.747 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.749 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/displayed'
+02:33:52.749 [Forwarding isElementDisplayed on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/displayed'
+02:33:52.760 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.761 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.762 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/enabled'
+02:33:52.762 [Forwarding isElementEnabled on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/enabled'
+02:33:52.774 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/enabled HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.775 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.776 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/click'
+02:33:52.776 [Forwarding clickElement on session 41cc9c30-4f86-4148-881e-55ce2516106c to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/click'
+02:33:52.797 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/41cc9c30-4f86-4148-881e-55ce2516106c/element/00000000-0000-014d-0000-001900000000/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:52.797 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:52.798 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: failclickRegisterButton
+]]></system-out>
+  </testcase>
+  <testcase name="user on home page" classname="As a user i cant login because i input invalid password" time="7.246">
+    <system-out><![CDATA[02:33:52.804 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+As a new user, I have be able to create new account
+----------------------------------------------------------------------
+02:33:52.812 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/Login.feature
+02:33:52.814 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@a077a8ae
+02:33:52.814 [main] INFO  - Test Suite Started: As a user i have be able to login so that i can see home screen
+02:33:52.818 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/%5BKM%5D%20Quality%20Assurance%20-%20Alttera%20Academy/Git%20Derry/testingMiniProject/test-automation-mobile/src/test/resources/features/Login.feature
+02:33:52.820 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user i cant login because i input invalid password(as-a-user-i-have-be-able-to-login-so-that-i-can-see-home-screen;as-a-user-i-cant-login-because-i-input-invalid-password)
+--------------------------------------------------------------------------------
+02:33:52.843 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.userOnHomePage - onHomePage
+02:33:52.847 [Forwarding newSession on session null to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session'
+02:33:52.847 [Forwarding newSession on session null to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session'
+02:33:59.357 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session HTTP/1.1
+X-Idempotency-Key: fe3dd60a-ef41-4c31-a57e-91fa1f0ca61d
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 451
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 1131
+ETag: W/"46b-kgqSPgBP4zqp3H3QBUaVh2/hKbk"
+Date: Wed, 26 Apr 2023 19:33:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:59.358 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:59.363 [Forwarding setTimeout on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/timeouts'
+02:33:59.363 [Forwarding setTimeout on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/timeouts'
+02:33:59.369 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/timeouts HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:33:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:33:59.369 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:33:59.371 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:33:59.371 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:00.032 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 330
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-cYZ6jrn3JjfCzbu8q3oowAnBu1g"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.032 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.034 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.034 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.050 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.050 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.051 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.052 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.064 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.065 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.069 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: onHomePage
+]]></system-out>
+  </testcase>
+  <testcase name="user click account info" classname="As a user i cant login because i input invalid password" time="0.101">
+    <system-out><![CDATA[02:34:00.074 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.userClikAccount - clickAccount
+02:34:00.076 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:00.076 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:00.115 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 330
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-cYZ6jrn3JjfCzbu8q3oowAnBu1g"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.115 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.116 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.116 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed'
+02:34:00.132 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.133 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.134 [Forwarding isElementEnabled on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/enabled'
+02:34:00.134 [Forwarding isElementEnabled on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/enabled'
+02:34:00.146 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/enabled HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.146 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.147 [Forwarding clickElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/click'
+02:34:00.147 [Forwarding clickElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/click'
+02:34:00.171 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000700000000/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:34:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:00.171 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:00.172 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickAccount
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid email" classname="As a user i cant login because i input invalid password" time="0.972">
+    <system-out><![CDATA[02:34:00.176 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.userInputValidUsername - inputEmail
+02:34:00.177 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:00.177 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:01.122 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 305
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-BO2pfWnQpbDHku7eR3eqmf/xihQ"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.123 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.124 [Forwarding sendKeysToElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000c00000000/value'
+02:34:01.124 [Forwarding sendKeysToElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000c00000000/value'
+02:34:01.145 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000c00000000/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 321
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.145 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.146 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
+]]></system-out>
+  </testcase>
+  <testcase name="user input invalid password" classname="As a user i cant login because i input invalid password" time="0.07">
+    <system-out><![CDATA[02:34:01.152 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.userInputInvalidPassword - inputPassword
+02:34:01.153 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:01.153 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:01.193 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 305
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-VPSU7CJgnlMmL0II/xoqE5wQLic"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.193 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.195 [Forwarding sendKeysToElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000d00000000/value'
+02:34:01.195 [Forwarding sendKeysToElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000d00000000/value'
+02:34:01.217 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000d00000000/value HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 221
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.218 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.218 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
+]]></system-out>
+  </testcase>
+  <testcase name="user click login button" classname="As a user i cant login because i input invalid password" time="0.106">
+    <system-out><![CDATA[02:34:01.222 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.userClickLoginButton - tapLoginButton
+02:34:01.223 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:01.223 [Forwarding findElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element'
+02:34:01.271 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 99
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 137
+ETag: W/"89-Y+tcuxrv2rqCfUVcmsYGCgi5K0Q"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.271 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.272 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/displayed'
+02:34:01.272 [Forwarding isElementDisplayed on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/displayed'
+02:34:01.287 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/displayed HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.287 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.289 [Forwarding isElementEnabled on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'GET' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/enabled'
+02:34:01.289 [Forwarding isElementEnabled on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for GET '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/enabled'
+02:34:01.302 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/enabled HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.303 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.304 [Forwarding clickElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]' for 'POST' to 'http://0.0.0.0:4723/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/click'
+02:34:01.304 [Forwarding clickElement on session 7a258932-e135-429e-8ebb-93f6b8faf4e7 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723] for POST '/wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/click'
+02:34:01.324 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7a258932-e135-429e-8ebb-93f6b8faf4e7/element/00000000-0000-0159-0000-000e00000000/click HTTP/1.1
+User-Agent: appium/8.3.0 (selenium/4.8.1 (java windows))
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 14
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Wed, 26 Apr 2023 19:34:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+02:34:01.324 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0xaaedf2c7, L:/192.168.56.1:55889 - R:/0.0.0.0:4723]
+02:34:01.325 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: tapLoginButton
+]]></system-out>
+  </testcase>
+</testsuite>

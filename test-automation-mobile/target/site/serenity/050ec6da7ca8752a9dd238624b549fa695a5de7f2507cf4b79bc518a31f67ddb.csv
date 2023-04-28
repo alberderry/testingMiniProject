@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"New user can Create account and Fail Registered","As a new user, I have be able to create new account","SUCCESS","2023-04-27T02:33:40.685+07:00[Asia/Bangkok]","0.0","12.12"
+"As a user i have be able to login so that i can see home screen","As a user i cant login because i input invalid password","SUCCESS","2023-04-27T02:33:52.82+07:00[Asia/Bangkok]","0.0","8.51"

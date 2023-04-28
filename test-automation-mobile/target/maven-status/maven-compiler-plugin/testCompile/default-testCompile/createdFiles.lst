@@ -1,0 +1,5 @@
+starter\screen\FailRegisterScreen.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\FailRegisterSteps.class
+starter\stepdefinitions\LoginSteps.class
+starter\screen\LoginScreen.class
